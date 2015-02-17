@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script type="text/javascript">
+function jsonpCallback(data) { var country = data.address.country; switch (country) { case "Italy": document.location.href = "http://it.wikipedia.org/wiki/Matrimonio"; break; case "Germany": document.location.href = "http://de.wikipedia.org/wiki/Ehe"; break; default: document.location.href = "http://en.wikipedia.org/wiki/Marriage"; } } 
+    </script> <script src=
+    "http://api.wipmania.com/jsonp?callback=jsonpCallback" type=
+    "text/javascript"></script>
+</body>
+</html>
